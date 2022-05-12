@@ -1,0 +1,177 @@
+/*display in grid*/
+
+.container{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left:120px;
+    margin-right: 120px;
+
+}
+
+p{
+    color:gray;
+}
+:root{
+    --main-radius:5px;
+    --main-padding:5px;
+}
+/*focus on the header*/
+
+header{
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+    border-radius: 5px;
+}
+
+
+#timphoto{
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 50%;
+    width:25%; 
+    border: 5px solid #555; 
+}
+
+#namehighlight{
+    color:red;
+    font-weight:60px;
+}
+
+.button1{
+    background-color: red;
+    color:white;
+    border-radius: 5px;
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right:10px;
+    font-weight: 16px;
+    
+    
+}
+
+h5{
+    color: gray;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.para{
+    text-align: justify;
+    color: gray;
+    font-size: 10px;
+    line-height:1.5;
+}
+
+/*focus on social div*/
+
+#social{
+color: gray;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    display:flex;
+    align-items: center;
+
+}
+
+a{
+    color:lightgrey;
+    text-decoration: none;
+    flex-direction: row;
+    /* flex-direction: column; */
+}
+
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    /* margin: 2px 2px; */
+    color:lightgray;
+    flex-direction: row;
+}
+.title{
+    background-color: gray;
+    color:rgb(156, 149, 149); 
+    }
+
+
+  /*mainarticle*/
+
+
+  .main{
+      display:flex;
+      flex-direction:column;
+      color:lightgrey;
+  }
+
+h4{
+    color: gray;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+  .section1{
+      display:flex;
+      /* text-align: left; */
+      text-align: justify;
+     color: gray;
+    font-size: 10px;
+    line-height:1.5;
+    margin-bottom: -60px;
+  }
+
+  .section2{
+      display:flex;
+      /* text-align:left; */
+      text-align: justify;
+    color: gray;
+    font-size: 10px;
+    line-height:1.5;
+    margin-bottom: -230px;
+
+  }
+.section3{
+    display:flex;
+    /* text-align:left; */
+    text-align: justify;
+    color: gray;
+    font-size: 10px;
+    line-height:1.5;
+}
+#odyssey{
+    float: left;
+    margin-bottom:1
+
+}
+ #hulot{
+     float: left;
+     margin-bottom: 200px;
+
+ }
+#alien{
+    float:left;
+}
+
+.titre{
+    margin-left:120px;
+    margin-bottom: -5px;
+
+}
+
+.lastpara{
+    float:right;
+    margin-left: 30px;
+    text-align: justify;
+    line-height: 1.5;
+} 
+
+    
